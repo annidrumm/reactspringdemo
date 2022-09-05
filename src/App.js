@@ -1,4 +1,5 @@
 import './App.css';
+import FadingItems from './components/FadingItems';
 import LoopingCard from './components/LoopingCard';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       </header>
       <div className="App-body">
         <LoopingCard />
+        <h2>Click the items</h2>
+        <FadingItems />
       </div>
     </div>
   );
